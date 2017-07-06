@@ -1,0 +1,1 @@
+/home/herobot/ORB_SLAM2/Thirdparty/DBoW2/Default/CMakeFiles/DBoW2.dir
