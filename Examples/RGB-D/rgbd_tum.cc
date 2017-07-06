@@ -74,7 +74,7 @@ int main(int argc, char **argv)
 
     // Main loop
     cv::Mat imRGB, imD;
-    for(int ni=0; ni<nImages; ni++)
+    for(int ni=0; ni<nImages; ni++) //read image and depth files from dir
     {
         // Read image and depthmap from file
         imRGB = cv::imread(string(argv[3])+"/"+vstrImageFilenamesRGB[ni],CV_LOAD_IMAGE_UNCHANGED);
